@@ -1,0 +1,86 @@
+.create-crewmate {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.create-crewmate form {
+  display: flex;
+  flex-direction: column;
+}
+
+.create-crewmate label {
+  margin-bottom: 5px;
+}
+
+.create-crewmate input[type="text"],
+.create-crewmate input[type="number"],
+.create-crewmate input[type="radio"],
+.create-crewmate select {
+  margin-bottom: 20px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.create-crewmate button {
+  padding: 10px 20px;
+  background-color: #5c6bc0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.homepage {
+  text-align: center;
+  padding: 20px;
+}
+
+.homepage h1 {
+  margin-bottom: 20px;
+}
+
+.homepage button {
+  padding: 10px 20px;
+  background-color: #5c6bc0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.crewmate-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.crewmate-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+}
+
+.crewmate-card h3 {
+  margin-bottom: 10px;
+}
+
+.crewmate-card p {
+  margin-bottom: 15px;
+}
+
+.crewmate-card button {
+  padding: 5px 15px;
+  margin-right: 5px;
+  background-color: #5c6bc0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

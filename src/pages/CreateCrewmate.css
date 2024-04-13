@@ -1,0 +1,34 @@
+/* src/pages/CreateCrewmate.css */
+
+.create-crewmate {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.create-crewmate form {
+  display: flex;
+  flex-direction: column;
+}
+
+.create-crewmate label {
+  margin-bottom: 5px;
+}
+
+.create-crewmate input,
+.create-crewmate button {
+  margin-bottom: 20px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.create-crewmate button {
+  padding: 10px 20px;
+  background-color: #5c6bc0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
