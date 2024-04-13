@@ -4,7 +4,7 @@ Submitted by: Miracle Adeoye
 
 This web app allows users to craft their own crewmate characters for various gaming universes, offering personalized creation, management, and display features for an interactive user experience.
 
-Time spent: 30 hours spent in total
+Time spent: 7 hours spent in total
 
 ## Required Features
 
